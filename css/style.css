@@ -1,10 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+p {
+    font-family: 'Major Mono Display', monospace;
+}
+
+h1 {
+    font-family: 'Reenie Beanie', cursive;
+}
 
 .part {
     min-height: 80vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bloop {
+    background-color: rgb(0, 0, 0, 1);
 }
 
 .pt1 {
     background-image: url("https://source.unsplash.com/random/?city,day");
+}
+
+.pt2 {
+    background-image: url("https://source.unsplash.com/random/?city");
 }
