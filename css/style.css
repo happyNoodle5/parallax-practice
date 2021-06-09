@@ -1,13 +1,13 @@
-p {
+.blocky {
     font-family: 'Major Mono Display', monospace;
 }
 
-h1 {
+.cute {
     font-family: 'Reenie Beanie', cursive;
 }
 
 .part {
-    min-height: 80vh;
+    min-height: 100vh;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -19,7 +19,7 @@ h1 {
 }
 
 .pt1 {
-    background-image: url("https://source.unsplash.com/random/?city,day");
+    background-image: url("https://images.unsplash.com/photo-1610793486802-2e25feed1e3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1565&q=80");
 }
 
 .pt2 {
