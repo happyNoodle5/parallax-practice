@@ -1,2 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+.part {
+    min-height: 80vh;
+}
+
+.pt1 {
+    background-image: url("https://source.unsplash.com/random/?city,day");
+}
