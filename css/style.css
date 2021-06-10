@@ -31,6 +31,7 @@
     color: white;
     display: block;
     background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, .5);
 }
 
 .next-icon {
@@ -61,4 +62,32 @@
 
 .pt4 {
     background-image: url("https://source.unsplash.com/random/?woods,mist");
+}
+
+.footer {
+    background-color: tomato;
+    min-height: 35vh;
+}
+
+.footer-circle {
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, .5);
+}
+
+.footer-icon {
+    fill: white;
+}
+
+.footer-licence {
+    color:white;
+    font-size: 5px;
+}
+
+.footer-licence a {
+    font-weight: bold;
+    color: white;
 }
