@@ -6,22 +6,59 @@
     font-family: 'Reenie Beanie', cursive;
 }
 
+.shade {
+    text-shadow: 2px 2px 10px#0e0d0d;
+}
+
+.date {
+    line-height: 0%;
+}
+
 .part {
     min-height: 100vh;
+    min-width: 25vw;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.bloop {
+.next {
+    margin-top: 35vh;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.next-icon {
+    display: block;
+}
+
+.opacity-back {
     background-color: rgb(0, 0, 0, .5);
 }
 
+.pointer-size {
+    min-width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .pt1 {
-    background-image: url("https://images.unsplash.com/photo-1610793486802-2e25feed1e3f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1565&q=80");
+    background-image: url("https://source.unsplash.com/random/?mountain,landscape");
 }
 
 .pt2 {
-    background-image: url("https://source.unsplash.com/random/?city");
+    background-image: url("https://source.unsplash.com/random/?city,night");
+}
+
+.pt3 {
+    background-image: url("https://source.unsplash.com/random/?woods,lake");
+}
+
+.pt4 {
+    background-image: url("https://source.unsplash.com/random/?woods,mist");
 }
