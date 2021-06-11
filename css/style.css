@@ -1,0 +1,97 @@
+.blocky {
+    font-family: 'Major Mono Display', monospace;
+}
+
+.cute {
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.shade {
+    text-shadow: 2px 2px 10px#0e0d0d;
+}
+
+.nav-color {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.date {
+    line-height: 0%;
+}
+
+.part {
+    min-height: 100vh;
+    min-width: 25vw;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.next {
+    margin-top: 35vh;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: white;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, .5);
+}
+
+.next-icon {
+    display: block;
+}
+
+.opacity-back {
+    background-color: rgb(0, 0, 0, .5);
+}
+
+.pointer-size {
+    min-width: 20vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pt1 {
+    background-image: url("https://source.unsplash.com/random/?mountain,landscape");
+}
+
+.pt2 {
+    background-image: url("https://source.unsplash.com/random/?city,night");
+}
+
+.pt3 {
+    background-image: url("https://source.unsplash.com/random/?woods,lake");
+}
+
+.pt4 {
+    background-image: url("https://source.unsplash.com/random/?woods,mist");
+}
+
+.footer {
+    background-color: tomato;
+    min-height: 35vh;
+}
+
+.footer-circle {
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.25);
+    box-shadow: 5px 5px 10px 1px rgb(0, 0, 0, .5);
+}
+
+.footer-icon {
+    fill: white;
+}
+
+.footer-licence {
+    color:white;
+    font-size: 5px;
+}
+
+.footer-licence a {
+    font-weight: bold;
+    color: white;
+}
