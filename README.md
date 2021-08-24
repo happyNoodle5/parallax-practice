@@ -1,3 +1,5 @@
+[view](https://happynoodle5.github.io/parallax-practice/)
+
 # bootstrap-boilerplate
 
 ## Description
